@@ -1,7 +1,7 @@
 %global srcname html5-parser
 
 Name:           python-%{srcname}
-Version:        0.4.10
+Version:        0.4.12
 Release:        1
 Summary:        A fast, standards compliant, C based, HTML 5 parser for python
 
@@ -62,5 +62,7 @@ sed -i -e '/^#!\//, 1d' src/html5_parser/*.py
 %{python3_sitearch}/*
 
 %changelog
+* Thu Dec 7 2023 lichaoran <pkwarcraft@hotmail.com> - 0.4.12-1
+- Upgrade to 0.4.12
 * Tue Jun 27 2023 lichaoran <pkwarcraft@hotmail.com> - 0.4.10-1
 - Init package
